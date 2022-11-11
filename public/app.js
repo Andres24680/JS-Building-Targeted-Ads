@@ -1,6 +1,5 @@
 // get user's data
-// get user's coordinates
-// Get the user's coordinates:                                                              
+                                                        
 // Get the user's coordinates:                                                              
 function getCoords(){
     return new Promise((resolve, reject) => {
@@ -11,7 +10,7 @@ function getCoords(){
 console.log(getCoords());
 
 
-// Get the user's time:   
+
 // Get the user's time:                                                              
 function userTime(){
     const now = new Date()
